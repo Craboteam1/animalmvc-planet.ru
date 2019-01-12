@@ -1,0 +1,291 @@
+body {
+	background-image:url("/skins/admin/img/bg-content.jpg");
+
+}
+
+header {
+	background-image:url("/skins/admin/img/bg-header.jpg");
+}
+
+.clearfix:before,.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.main-menu {
+	width: 970px;
+	padding: 0;
+	text-align: right;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+.logo {
+	float: left;
+	padding: 24px 0 0 25px;
+}
+.logo a.logo-link {
+	display:inline-block;
+	background-image:url("/skins/admin/img/logo (1).png");
+	background-repeat: no-repeat;
+	width: 218px;
+}
+
+.main-menu a {
+	padding: 56px 15px 36px 15px;
+	font-family: 'Bubblegum Sans', cursive;
+	color: #fff;
+	font-size: 12px;
+	line-height: 18px;
+	text-decoration: none;
+	height: 28px;
+	margin-top: 0;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-shadow: 1px 1px rgba(0,0,0,0.3);
+}
+.main-menu > a, .main-menu > div {
+	display: inline-block;
+
+	position: relative; 	// TOP -10, left: -4px
+
+}
+.main-menu > div a.active {
+	background-image: url("/skins/admin/img/tail-item-hover.jpg");
+	margin-right: -4px;
+	display:inline-block;
+}
+.main-menu .drop-menu {
+	display:none;
+	position:absolute;
+	left:0;
+	top:119px;
+	z-index: 99;
+	height: 20px;
+
+}
+.main-menu > div:hover .drop-menu {
+	display:block;
+}
+
+.main-menu .drop-drop-menu {
+	position:relative;
+	z-index: 99;
+
+}
+
+.drop-menu-1 {
+	display:none;
+	position:absolute;
+	left:93px;
+	bottom: -20px;
+	z-index: 99;
+	width: 85px;
+	text-align: left;
+	background-color:#2f2f2f;
+}
+
+.drop-menu-1:hover {
+	color:orange;
+}
+
+.main-menu .drop-drop-menu:hover .drop-menu-1 {
+	display:block;
+}
+
+.drop-menu {
+	width: 85px;
+	text-align: left;
+	color:#23232c;
+	max-height: 66px;
+}
+
+.drop-menu a {
+	font-size: 14px;
+	width: 70px;
+	display: block;
+	margin: 0 auto;
+	max-height: 20px;
+	background-color: #2f2f2f;
+	padding: 3px 13px 0;
+	padding-bottom: 5px;
+	text-transform: uppercase;
+}
+
+
+.drop-menu a:hover {
+	color: orange;
+}
+
+div.main {
+	margin: 0 auto;
+	position: relative;
+}
+
+.main-menu a.un-active:hover {
+	background-image: url("/skins/admin/img/tail-item-hover.jpg");
+}
+
+.main-menu a.un-active:hover span.marker-un-active {
+	display: block;
+}
+
+
+span.orange {
+	color: #ff5c14;
+}
+.whitetext {
+	color: white;
+	font-size: 18px;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 970px;
+	text-align: center;
+	word-wrap: break-word;
+	margin-top: 20px;
+}
+.whitetext td {
+	padding:5px;
+}
+.spanwhitetext {
+	color:#6c6c75;
+	font-size: 10px;
+	opacity:0.5;
+}
+.whitetext a {
+	color: red;
+	text-decoration:none;
+}
+.redtext{
+	color: red;
+	font-size: 12px;
+}
+.greentext {
+	color: green;
+	font-size: 12px;
+}
+.header-text {
+	font-family:'Bubblegum Sans', cursive;
+	font-size:24px;
+	color:#fff;
+	font-weight:bolder;
+}
+footer {
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: center;
+	color: #818181;
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	width: 955px;
+	margin-top: -1px;
+}
+
+footer p a {
+	text-decoration:none;
+	color: #818181;
+}
+
+footer p a:hover {
+	text-decoration:underline;
+}
+.div-content {
+	width: 955px;
+}
+.border-pic {
+	background:url("/skins/admin/img/border-horiz.png") no-repeat 0 0;
+	height: 1px;
+	padding: 10px 0 10px 0;
+}
+.search-box {
+	text-align:left;
+	padding:5px;
+	margin:15px;
+}
+
+.found-box {
+	border: 1px solid white;
+	padding:15px;
+	margin:15px;
+}
+.img-add {
+	float:right;
+	padding:10px;
+	width: 340px;
+}
+.news-box {
+	padding:10px;
+}
+.news-box a {
+	color: white;
+	font-size: 22px;
+}
+.news-box p {
+	padding:10px;
+	word-break: break-all;
+}
+.news-box .spanwhitetext {
+	float:right;
+	opacity:1;
+}
+.left-side {
+	float:left;
+	font-family: 'Bubblegum Sans', cursive;
+}
+.button {
+	display: inline-block;
+	color: #1e1e1e !important;
+	font-size: 16px;
+	line-height: 18px;
+	background: #fff;
+	text-decoration: none;
+	padding: 8px 17px 9px;
+	border-radius: 10px;
+	cursor:pointer;
+}
+
+
+.button:hover {
+	background-color: #2e2e2e;
+	color: #fff;
+}
+
+.books-main {
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.book {
+	width: 160px;
+	display:inline-block;
+	padding:10px;
+	margin:5px;
+	font-family:'Bubblegum Sans',cursive;
+	color:cornsilk;
+	font-size:15px;
+}
+.book a {
+	color:white;
+	font-family:cursive;
+	font-size:15px;
+	text-decoration:none;
+	margin-top: 10px;
+}
+.author {
+	font-size:10px;
+	color: gainsboro;
+	opacity:0.7;
+}
+.red {
+	background-color:red;
+}
+.green {
+	background-color:green;
+}
